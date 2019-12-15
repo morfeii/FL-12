@@ -1,0 +1,201 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #21232e; }
+
+.img {
+  max-width: 100%;
+  height: auto; }
+
+.header_button, .section_banner_button {
+  width: 120px;
+  height: 42px;
+  border-radius: 3px;
+  background-color: #e3ac00;
+  border: none;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: bold; }
+  .header_button:hover, .section_banner_button:hover {
+    background-color: #977200; }
+  .header_button:active, .section_banner_button:active {
+    background-color: #7d5f00; }
+
+.logo, header .header-wrap .landing-logo, footer .footer-wrap .footer_logo {
+  display: flex; }
+  .logo img, header .header-wrap .landing-logo img, footer .footer-wrap .footer_logo img {
+    height: 42px;
+    width: 42px; }
+  .logo p, header .header-wrap .landing-logo p, footer .footer-wrap .footer_logo p {
+    padding: 5px 15px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 23px;
+    font-weight: bold; }
+  .logo span, header .header-wrap .landing-logo span, footer .footer-wrap .footer_logo span {
+    display: block;
+    font-size: 10px; }
+
+header {
+  background-image: url(../img/m-h-night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom-right-radius: 700px 320px;
+  width: 100%;
+  height: 700px; }
+  header .header-wrap {
+    padding: 30px 150px;
+    font-family: "Fresca", sans-serif;
+    color: #fff;
+    position: relative;
+    z-index: 1; }
+    header .header-wrap .header_heading {
+      display: inline-block;
+      padding-top: 70px;
+      padding-bottom: 20px;
+      width: 500px;
+      font-size: 60px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: bold;
+      line-height: 1em; }
+      header .header-wrap .header_heading:after {
+        content: "";
+        display: inline-block;
+        width: 253px;
+        height: 43px;
+        background: #ff4e33;
+        position: absolute;
+        left: 150px;
+        top: 228px;
+        z-index: -1; }
+    header .header-wrap .header_text {
+      white-space: pre-line;
+      line-height: 1.5em;
+      font-size: 14px;
+      padding-bottom: 60px; }
+    header .header-wrap .login {
+      color: #fff;
+      display: inline-block;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 17px;
+      margin-left: 120px; }
+      header .header-wrap .login:hover {
+        color: #cccccc; }
+
+main {
+  margin: 0 auto;
+  width: 1024px; }
+  main > p {
+    text-align: center;
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    position: relative;
+    z-index: 2; }
+    main > p:after {
+      content: "";
+      display: inline-block;
+      width: 163px;
+      height: 43px;
+      background: #ff4e33;
+      position: absolute;
+      left: 517px;
+      top: 35px;
+      z-index: -1; }
+  main .section_card_wrap {
+    display: flex;
+    flex-direction: column; }
+    main .section_card_wrap .section_card {
+      display: flex;
+      padding: 20px;
+      margin: 12px 30px;
+      border-radius: 5px;
+      background-color: #3b3f50;
+      font-family: "Fresca", sans-serif;
+      font-size: 14px; }
+      main .section_card_wrap .section_card .section_card_img {
+        width: 40%;
+        border-radius: 5px; }
+      main .section_card_wrap .section_card .section_card_right_container {
+        padding: 50px 85px 25px 75px;
+        width: 60%; }
+        main .section_card_wrap .section_card .section_card_right_container .section_card_heading {
+          font-family: "Source Sans Pro", sans-serif;
+          text-align: center;
+          font-size: 20px;
+          font-weight: bold;
+          color: #fff; }
+        main .section_card_wrap .section_card .section_card_right_container .section_card_text {
+          text-align: justify;
+          color: #cccccc;
+          padding-top: 40px;
+          padding-bottom: 20px;
+          line-height: 1.5em; }
+        main .section_card_wrap .section_card .section_card_right_container .section_link {
+          color: #cccccc;
+          display: block;
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 14px;
+          text-align: center; }
+          main .section_card_wrap .section_card .section_card_right_container .section_link:hover {
+            color: #999999; }
+  main .section_banner {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px 125px;
+    position: relative;
+    top: 0;
+    transform: translateY(50%);
+    background: linear-gradient(to right, #e3ac00, #96324f);
+    border-radius: 5px; }
+    main .section_banner .section_banner_text_wrap {
+      padding-bottom: 12px; }
+      main .section_banner .section_banner_text_wrap .section_banner_heading {
+        padding-bottom: 10px;
+        font-family: "Source Sans Pro", sans-serif;
+        color: #fff;
+        font-size: 26px;
+        font-weight: bold; }
+        main .section_banner .section_banner_text_wrap .section_banner_heading:after {
+          content: "";
+          display: inline-block;
+          width: 55px;
+          height: 43px;
+          background: #ff4e33;
+          position: absolute;
+          left: 230px;
+          top: 12px;
+          z-index: -1; }
+      main .section_banner .section_banner_text_wrap .section_banner_text {
+        font-family: "Fresca", sans-serif;
+        color: #cccccc;
+        font-size: 13px; }
+
+footer {
+  background-color: #3b3f50;
+  font-family: "Fresca", sans-serif;
+  color: #cccccc; }
+  footer .footer-wrap {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 150px 0 150px; }
+    footer .footer-wrap .footer_text {
+      width: 250px;
+      font-size: 12px; }
+    footer .footer-wrap .footer-cr {
+      font-size: 13px; }
